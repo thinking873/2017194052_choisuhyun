@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #212121;
+}
+body {
+    background-image: url("images/main_back_3.png");
+    background-size: cover;
+    background-position: top right;
+    background-attachment: fixed;
+}
+
+/*    모바일*/
+@media(max-width: 767px){
+    .nav {
+        height: 300px;
+        
+    }
+   
+    #logo {
+        text-decoration: none;
+        line-height: 55px;
+        text-align: center;    
+    }
+    #logo h1 {
+        font-size: 20px;
+    }
+    .nav a {
+        color: #212121;
+    }
+    .nav ul {
+        list-style: none;
+        width: 90%;
+        margin: 0 auto;
+        
+        text-align: center;
+        
+        
+    }
+    .nav li {
+        
+        
+    }
+    .nav li a {
+        text-decoration: none;
+        color: #212121;
+        font-size: 18px;
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px auto;
+        border-radius: 7px;
+        box-shadow: 0px 7px 8px 4px rgba(50,50,50,0.7);
+        background-color: white;
+    }
+    .nav li a:hover{
+        background-color: #455BE3;
+        color: white;
+        font-size: 20px;
+        padding: 12px;
+    }
+    .back {
+        width: 90%;
+        margin: 0 auto; 
+        overflow: hidden;  
+        border-radius: 7px;
+        box-shadow: 0px 7px 8px 4px rgba(50,50,50,0.7);
+        margin-bottom: 50px;
+        background-color: white;
+        
+    }
+    .context {
+        padding-top: 50px;
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    .product {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .product img {
+        vertical-align: middle;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .product div {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .product div h1 {
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    .product div p {
+        font-size: 15px;
+    }
+    .explain {
+        width: 100%; 
+        margin-top: 40px;
+        overflow: hidden;
+        margin-bottom: 120px;
+    }
+    .explain p {
+        text-align: center;
+        width: 100%;
+        font-size: 15px;
+    }
+    .picture { 
+        margin-top: 40px;
+        width: 100%; 
+    }
+    .picture img {
+        width: 100%;
+    }
+}
+
+/*테블릿*/
+@media(min-width: 768px) and (max-width: 1023px) {
+    .nav {
+        height: 50px;
+        
+    }
+    .nav h1 {
+        font-size: 18px;
+        margin-left: 80px;
+        line-height: 50px;
+        display: inline-block;
+    }
+    .nav a {
+        color: #212121;
+    }
+    .nav ul {
+        float: right;
+        list-style: none;
+        line-height: 50px;
+        position: absolute;
+        right: 80px;
+        top: 0;
+    }
+    .nav li {
+        float: left;
+        
+    }
+    .nav li a {
+        text-decoration: none;
+        color: #212121;
+        font-size: 16px;
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 0 0 10px 10px;
+    }
+    .nav li a:hover {
+        background-color: #455BE3;
+        color: white;
+        line-height: 60px;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .back {
+        width: 90%;
+        margin: 0 auto; 
+        height: 900px;  
+        border-radius: 7px;
+        box-shadow: 0px 7px 8px 4px rgba(50,50,50,0.7);
+        margin-bottom: 50px;
+        background-color: white;
+        
+    }
+    .context {
+        padding-top: 50px;
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    .product {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        line-height: 400px;
+    }
+    .product img {
+        vertical-align: middle;
+        width: 40%;
+        
+    
+    }
+    
+    .product div {
+        vertical-align: middle;
+        width: 50%;
+        margin-left: 40px;
+        line-height: normal;
+        display: inline-block;
+    }
+    .product div h1 {
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    .product div p {
+        font-size: 15px;
+    }
+    .explain {
+        width: 100%; 
+        margin-top: 40px;
+        height: 400px;
+        overflow: hidden;
+        line-height: 400px;
+    }
+    .explain p {
+        line-height: normal;
+        width: 50%;
+        float: left;
+        font-size: 15px;
+    }
+    .picture {   
+        float: left;
+        width: 40%; 
+        margin-left: 40px;
+    }
+    .picture img {
+        width: 100%;
+    }
+}
+
+/*데스크탑*/
+@media(min-width: 1024px) {
+    .nav {
+        height: 55px;
+        
+    }
+    .nav h1 {
+        font-size: 20px;
+        margin-left: 140px;
+        line-height: 55px;
+        display: inline-block;
+    }
+    .nav a {
+        color: #212121;
+    }
+    .nav ul {
+        float: right;
+        list-style: none;
+        line-height: 55px;
+        margin-right: 50px;
+        position: absolute;
+        right: 100px;
+        top: 0;
+    }
+    .nav li {
+        float: left;
+        
+    }
+    .nav li a {
+        text-decoration: none;
+        color: #212121;
+        font-size: 18px;
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 0 0 10px 10px;
+    }
+    .nav li a:hover {
+        background-color: #455BE3;
+        color: white;
+        line-height: 70px;
+        font-size: 20px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    .back {
+        width: 90%;
+        margin: 0 auto;  
+        border-radius: 7px;
+        box-shadow: 0px 7px 8px 4px rgba(50,50,50,0.7);
+        overflow: hidden;
+        background-color: white;
+        margin-bottom: 60px;
+    
+        
+    }
+    .context {
+        padding-top: 50px;
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    .product {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        line-height: 400px;
+    }
+    .product img {
+        vertical-align: middle;
+        width: 40%;
+        
+    
+    }
+    
+    .product div {
+        vertical-align: middle;
+        width: 50%;
+        margin-left: 40px;
+        line-height: normal;
+        display: inline-block;
+    }
+    .product div h1 {
+        margin-bottom: 30px;
+
+    }
+    .product div p {
+    
+    }
+    .explain {
+        width: 100%; 
+        margin-top: 40px;
+        height: 400px;
+        overflow: hidden;
+        line-height: 400px;
+        margin-bottom: 80px;
+    }
+    .explain p {
+        line-height: normal;
+        width: 50%;
+        float: left;
+    
+    }
+    .picture {   
+        float: left;
+        width: 40%; 
+        margin-left: 40px;
+    }
+    .picture img {
+        width: 100%;
+    }
+}
+    

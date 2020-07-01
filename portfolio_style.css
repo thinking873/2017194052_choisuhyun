@@ -1,0 +1,561 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #212121;
+    }
+body {
+    background-image: url("images/main_back_3.png");
+    background-size: cover;
+    background-position: top right;
+    background-attachment: fixed;
+}
+
+/*    모바일*/
+@media(max-width: 767px){
+    .nav {
+        height: 300px;
+        
+    }
+   
+    #logo {
+        text-decoration: none;
+        line-height: 55px;
+        text-align: center;    
+    }
+    #logo h1 {
+        font-size: 20px;
+    }
+    .nav a {
+        color: #212121;
+    }
+    .nav ul {
+        list-style: none;
+        width: 90%;
+        margin: 0 auto;
+        
+        text-align: center;
+        
+        
+    }
+    .nav li {
+        
+        
+    }
+    .nav li a {
+        text-decoration: none;
+        color: #212121;
+        font-size: 18px;
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px auto;
+        border-radius: 7px;
+        box-shadow: 0px 7px 8px 4px rgba(50,50,50,0.7);
+        background-color: white;
+    }
+    .nav li a:hover{
+        background-color: #455BE3;
+        color: white;
+        font-size: 20px;
+        padding: 12px;
+    }
+    .back {
+        width: 90%;
+        margin: 0 auto; 
+        height: 2500px;  
+        border-radius: 7px;
+        box-shadow: 0px 7px 8px 4px rgba(50,50,50,0.7);
+        background-color: white;
+        margin-bottom: 60px;
+        
+    }
+    .context_align{
+        background-image: url(images/portfolio_picture.png);
+        background-size: cover;
+        background-position: top;
+        height: 300px;
+        line-height: 300px;
+        text-align: center;
+
+    }
+    
+    .context h1 {
+        color: white;
+        font-size: 40px;
+        
+    }
+    .context h5 {
+        color: white;
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .context {
+        line-height: normal;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .product {
+        overflow: hidden;
+        margin: 0 auto;
+        width: 80%;
+        padding-bottom: 100px;
+    }
+    .product a {
+        font-size: 13px;
+        padding: 5px 30px;
+        border: 1px solid #212121;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #212121;
+        
+    }
+    .product a:hover {
+        background-color: #455BE3;
+        color: white;
+        border: 0;
+    }
+    .product_1 {
+        margin-top: 100px;
+        height: 600px;
+        line-height: 300px; 
+        
+        overflow: hidden;
+    }
+    .product_1 img {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+    .product_1 div {
+        width: 100%;
+        text-align: center;
+        line-height: normal;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 20px;
+       
+    }
+    .product_1 div h1 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .product_1 div p {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .product_2 {
+        margin-top: 100px;
+        height: 600px;
+        line-height: 300px; 
+        
+        overflow: hidden;
+    }
+    .product_2 img {
+        float: left;
+        width: 100%;
+        margin-top: 10%;
+    }
+    .product_2 div {
+        width: 100%;
+        text-align: center;
+        line-height: normal;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 20px;
+    }
+    .product_2 div h1 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .product_2 div p {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .product_3 {
+       margin-top: 100px;
+        height: 600px;
+        line-height: 300px; 
+        overflow: hidden;
+        
+    }
+    .product_3 img {
+       float: left;
+        width: 100%;
+        margin-top: 10%;
+    }
+    .product_3 div {
+       width: 100%;
+        text-align: center;
+        line-height: normal;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 20px;
+    }
+    .product_3 div h1 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .product_3 div p {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+}
+
+/*테블릿*/
+@media(min-width: 768px) and (max-width: 1023px) {
+    .nav {
+        height: 50px;
+        
+    }
+    .nav h1 {
+        font-size: 18px;
+        margin-left: 80px;
+        line-height: 50px;
+        display: inline-block;
+    }
+    .nav a {
+        color: #212121;
+    }
+    .nav ul {
+        float: right;
+        list-style: none;
+        line-height: 50px;
+        position: absolute;
+        right: 80px;
+        top: 0;
+    }
+    .nav li {
+        float: left;
+        
+    }
+    .nav li a {
+        text-decoration: none;
+        color: #212121;
+        font-size: 16px;
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 0 0 10px 10px;
+    }
+    .nav li a:hover {
+        background-color: #455BE3;
+        color: white;
+        line-height: 60px;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .back {
+        width: 90%;
+        margin: 0 auto; 
+        height: 2400px;  
+        border-radius: 7px;
+        box-shadow: 0px 7px 8px 4px rgba(50,50,50,0.7);
+        background-color: white;
+        margin-bottom: 60px;
+        
+    }
+    .context_align{
+        background-image: url(images/portfolio_picture.png);
+        background-size: cover;
+        background-position: top;
+        height: 450px;
+        line-height: 450px;
+        text-align: center;
+
+    }
+    
+    .context h1 {
+        color: white;
+        font-size: 50px;
+        
+    }
+    .context h5 {
+        color: white;
+        font-size: 18px;
+        padding-top: 30px;
+    }
+    .context {
+        line-height: normal;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .product {
+        overflow: hidden;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .product a {
+        font-size: 13px;
+        padding: 5px 30px;
+        border: 1px solid #212121;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #212121;
+        
+    }
+    .product a:hover {
+        background-color: #455BE3;
+        color: white;
+        border: 0;
+    }
+    .product_1 {
+        margin-top: 200px;
+        height: 300px;
+        line-height: 300px; 
+        
+        overflow: hidden;
+    }
+    .product_1 img {
+        float: left;
+        width: 40%;
+        margin-top: 7%;
+
+    }
+    .product_1 div {
+        width: 40%;
+        margin-left: 100px;
+        line-height: normal;
+        display: inline-block;
+        vertical-align: middle;
+       
+    }
+    .product_1 div h1 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .product_1 div p {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .product_2 {
+        margin-top: 200px;
+        height: 300px;
+        line-height: 300px; 
+        
+        overflow: hidden;
+    }
+    .product_2 img {
+        float: right;
+        width: 40%;
+        margin-top: 10%;
+    }
+    .product_2 div {
+        width: 40%;
+        line-height: normal;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .product_2 div h1 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .product_2 div p {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .product_3 {
+        margin-top: 200px;
+        height: 400px;
+        line-height: 300px; 
+        overflow: hidden;
+    }
+    .product_3 img {
+        float: left;
+        width: 40%;
+        margin-top: 10%;
+
+    }
+    .product_3 div {
+       width: 40%;
+        margin-left: 100px;
+        line-height: normal;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .product_3 div h1 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .product_3 div p {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+}
+
+/*데스크탑*/
+@media(min-width: 1024px) {
+    .nav {
+        height: 55px;
+        
+    }
+    .nav h1 {
+        font-size: 20px;
+        margin-left: 140px;
+        line-height: 55px;
+        display: inline-block;
+    }
+    .nav a {
+        color: #212121;
+    }
+    .nav ul {
+        float: right;
+        list-style: none;
+        line-height: 55px;
+        margin-right: 50px;
+        position: absolute;
+        right: 100px;
+        top: 0;
+    }
+    .nav li {
+        float: left;
+        
+    }
+    .nav li a {
+        text-decoration: none;
+        color: #212121;
+        font-size: 18px;
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 0 0 10px 10px;
+    }
+    .nav li a:hover {
+        background-color: #455BE3;
+        color: white;
+        line-height: 70px;
+        font-size: 20px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    .back {
+        width: 90%;
+        margin: 0 auto; 
+        height: 2400px;  
+        border-radius: 7px;
+        box-shadow: 0px 7px 8px 4px rgba(50,50,50,0.7);
+        background-color: white;
+        margin-bottom: 60px;
+        
+    }
+    .context_align{
+        background-image: url(images/portfolio_picture.png);
+        background-size: cover;
+        background-position: top;
+        height: 600px;
+        vertical-align: middle;
+        line-height: 600px;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .context h1 {
+        color: white;
+        font-size: 80px;
+    }
+    .context h5 {
+        color: white;
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .context {
+        line-height: normal;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .product {
+        height: 500px;
+        margin: 0 auto;
+        width: 1050px;
+    }
+    .product a {
+        font-size: 15px;
+        padding: 5px 30px;
+        border: 1px solid #212121;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #212121;
+        
+    }
+    .product a:hover {
+        background-color: #455BE3;
+        color: white;
+        border: 0;
+    }
+    .product_1 {
+        margin-top: 200px;
+        height: 300px;
+        line-height: 300px; 
+        
+        overflow: hidden;
+    }
+    .product_1 img {
+        float: left;
+        width: 500px;
+    }
+    .product_1 div {
+        width: 400px;
+        margin-left: 150px;
+        line-height: normal;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .product_1 div h1 {
+        margin-bottom: 10px;
+    }
+    .product_1 div p {
+        margin-bottom: 30px;
+    }
+    .product_2 {
+        margin-top: 200px;
+        height: 300px;
+        line-height: 300px; 
+        
+        overflow: hidden;
+    }
+    .product_2 img {
+        float: right;
+        width: 500px;
+    }
+    .product_2 div {
+        width: 400px;
+        line-height: normal;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .product_2 div h1 {
+        margin-bottom: 10px;
+    }
+    .product_2 div p {
+        margin-bottom: 30px;
+    }
+    .product_3 {
+        margin-top: 200px;
+        height: 300px;
+        line-height: 300px; 
+        
+        overflow: hidden;
+    }
+    .product_3 img {
+        float: left;
+        width: 500px;
+    }
+    .product_3 div {
+        width: 400px;
+        line-height: normal;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 150px;
+    }
+    .product_3 div h1 {
+        margin-bottom: 10px;
+    }
+    .product_3 div p {
+        margin-bottom: 30px;
+    }
+}
